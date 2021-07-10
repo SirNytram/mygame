@@ -1,5 +1,6 @@
+#from gameapp.gameapp import *
+from gameapp import *
 
-from gameapp.gameapp import *
 
 class MyRedCar(GameImage):
     def __init__(self, parent):
