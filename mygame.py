@@ -1,9 +1,9 @@
 
-from gameapp import *
+from gameapp.gameapp import *
 
 class MyRedCar(GameImage):
     def __init__(self, parent):
-        super().__init__(parent, "gameapp/images/redcar.png", (200, 300))
+        super().__init__(parent, "images/redcar.png", (200, 300))
         self.bRightSide = True
         self.t = Rect(0,0,0,0)
 
@@ -30,7 +30,7 @@ class MyGame(GameApp):
         self.width = 1000
         self.redcar = MyRedCar(self)
         self.fps = 50
-        self.bluecar = GameImage(self, 'gameapp/images/bluecar.png', (10,500))
+        self.bluecar = GameImage(self, 'images/bluecar.png', (10,500))
         
         # self.redcar = 
         self.fontVerdana = GameFont(self, 'Verdana',50)
