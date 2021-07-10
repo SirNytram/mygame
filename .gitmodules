@@ -1,0 +1,3 @@
+[submodule "gameapp"]
+	path = gameapp
+	url = https://github.com/SirNytram/gameapp
